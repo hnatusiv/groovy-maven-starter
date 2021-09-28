@@ -19,11 +19,11 @@ class ConditionRunner {
         if (x){
             println x
         }else {
-            println 1
+            println 2
         }
 
 
-        def result = x ?: 1
+        def result = x ?: 2
         println result
     }
 }
